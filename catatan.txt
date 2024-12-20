@@ -1,0 +1,2 @@
+npx lerna init --packages="modules/*"
+jalankan perintah tersebut pada parent modul
