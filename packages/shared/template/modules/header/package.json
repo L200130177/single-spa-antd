@@ -1,8 +1,8 @@
 {
-  "name": "@temankos/default-pages",
+  "name": "@temankos/header",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve --port 3000",
+    "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
@@ -58,5 +58,5 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9"
   },
-  "types": "dist/temankos-default-pages.d.ts"
+  "types": "dist/temankos-appBar.d.ts"
 }
